@@ -16,6 +16,6 @@ public class Carro extends Vehiculo implements Combustible {
 
     //Se implemento el metodo recargar para el Carro, proveniente de la interfaz Combustible
     public void recargar() {
-        System.out.println("El carro se ha recargado con combustible Super");
+        System.out.println("El carro de la marca " + getMarca() + " y modelo " + getModelo() + " se ha recargado con combustible Super");
     }
 }

@@ -17,7 +17,7 @@ public class Camion extends Vehiculo implements Combustible {
 
     //Se implementa el metodo recargar de la interfaz Combustible
     public void recargar() {
-        System.out.println("El camion se ha recargado con gasolina Diesel");
+        System.out.println("El camion de la marca " + getMarca() + " y modelo " +getModelo() + " se ha recargado con gasolina Diesel");
     }
 
 
